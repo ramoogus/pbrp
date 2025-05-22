@@ -9,7 +9,6 @@ executors:
 jobs:
   build_pbrp:
     executor: android-executor
-    timeout: 180  # 3 hours max
     steps:
       - checkout
 
